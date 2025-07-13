@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Claudio's Web Development Projects - Portfolio</title>
+    <meta
+      name="description"
+      content="Explore Claudio's portfolio of web development projects, including websites, web applications, and more."
+    />
+    <meta
+      name="keywords"
+      content="web development, projects, portfolio, websites, web design, Edinburgh"
+    />
+    <meta name="author" content="Claudio Sapia" />
+    <meta name="robots" content="index, follow" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Claudio Sapia" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@web_dev_Claudio" />
+    <meta name="twitter:creator" content="@web_dev_Claudio" />
+    <meta
+      property="og:url"
+      content="https://devclaudio.netlify.app/portfolio.html"
+    />
+    <meta property="og:type" content="website" />
+
+    <meta
+      property="og:title"
+      content="Claudio's Web Development Projects - Portfolio"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://claudiosapia.com/portfolio.html" />
+    <meta
+      property="og:image"
+      content="https://claudiosapia.com/pics/claudio-logo.webp"
+    />
+    <meta
+      property="og:description"
+      content="Explore Claudio's portfolio of web development projects."
+    />
+    <meta property="og:site_name" content="Claudio Sapia" />
+    <meta property="og:locale" content="en_UK" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:type" content="image/png" />
+    <meta
+      property="og:image:alt"
+      content="Claudio's Web Development Projects - Portfolio"
+    />
+
+    <link rel="stylesheet" href="./styles/style.css" />
+    <!-- Preload font asynchronously -->
+    <link
+      rel="preload"
+      href="./styles/LEMONMILK-Regular.otf"
+      as="font"
+      type="font/opentype"
+      crossorigin="anonymous"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/e953136701.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./pics/c-favicon.webp" />
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-FRPH4WBRG5"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-FRPH4WBRG5");
+    </script>
+  </head>
+
+  <body class="portfolio-page">
+    <div class="div-one-portfolio">
+      <!-- Navbar -->
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarExample01"
+            aria-controls="navbarExample01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarExample01">
+            <div class="logo-container">
+              <a class="nav-link" href="index.html"
+                ><img
+                  class="avatar nav-logo mx-3"
+                  alt="logo"
+                  src="./pics/claudio-logo.webp"
+              /></a>
+            </div>
+            <ul class="navbar-nav mb-lg-0 nav-links">
+              <li class="nav-item nav-link text-white mx-3">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+
+              <li class="nav-item nav-link text-white mx-3">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item nav-link mx-3">
+                <a class="nav-link contact" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item nav-link mx-3">
+                <a
+                  class="nav-link github"
+                  target="_blank"
+                  href="https://github.com/claudiosapia"
+                  rel="noopener"
+                  >Github</a
+                >
+              </li>
+              <li class="nav-item nav-link mx-3">
+                <a class="nav-link about" href="about.html">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar -->
+
+      <main id="main-section" class="portfolio-main main-section">
+        <div class="loader-section">
+          <div id="loader" class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+          </div>
+        </div>
+
+        <div class="container text-center">
+          <div class="row mt-4 justify-content-center">
+            <img
+              class="cs-logo mt-4 pt-5 reveal"
+              alt="logo"
+              src="./pics/claudio-logo.webp"
+            />
+          </div>
+
+          <!-- MODAL -->
+
+          <div id="modal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <!-- Fallback single image for modal -->
+              <img
+                id="projectImage"
+                src=""
+                alt="Project preview"
+                style="max-width: 100%; display: none"
+              />
+              <!-- Bootstrap Carousel for multiple images -->
+              <div
+                id="projectCarousel"
+                class="carousel slide"
+                data-bs-ride="carousel"
+                style="display: block"
+              >
+                <div class="carousel-inner" id="carouselInner">
+                  <div class="carousel-item active">
+                    <img
+                      src="./pics/ciso/ciso_full.png"
+                      class="d-block w-100"
+                      alt="Intelligent CISO Home Page"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev custom-arrow"
+                  type="button"
+                  data-bs-target="#projectCarousel"
+                  data-bs-slide="prev"
+                >
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button
+                  class="carousel-control-next custom-arrow"
+                  type="button"
+                  data-bs-target="#projectCarousel"
+                  data-bs-slide="next"
+                >
+                  <span class="carousel-control-next-icon"></span>
+                </button>
+              </div>
+              <h3 id="projectTitle"></h3>
+              <p id="projectDescription"></p>
+            </div>
+          </div>
+
+          <!-- Limelight Cinema Modal Carousel Template (hidden, JS will populate) -->
+          <div id="modal-limelight" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div
+                id="projectCarouselLimelight"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner" id="carouselInnerLimelight">
+                  <div class="carousel-item active">
+                    <img
+                      src="./pics/limelight/limelight-home.png"
+                      class="d-block w-100"
+                      alt="Limelight Cinema Home Page"
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Home Page</h5>
+                      <p>Landing page with featured movies and navigation.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./pics/limelight/limelight-movies.png"
+                      class="d-block w-100"
+                      alt="Limelight Cinema Movies Listing"
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Movies Listing</h5>
+                      <p>
+                        Browse all movies currently showing at Limelight Cinema.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./pics/limelight/limelight-booking.png"
+                      class="d-block w-100"
+                      alt="Limelight Cinema Booking Page"
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Booking Page</h5>
+                      <p>Book tickets for your favorite movies online.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./pics/limelight/limelight-gallery.png"
+                      class="d-block w-100"
+                      alt="Limelight Cinema Gallery"
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Gallery</h5>
+                      <p>Photo gallery of the cinema and past events.</p>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev custom-arrow"
+                  type="button"
+                  data-bs-target="#projectCarouselLimelight"
+                  data-bs-slide="prev"
+                >
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button
+                  class="carousel-control-next custom-arrow"
+                  type="button"
+                  data-bs-target="#projectCarouselLimelight"
+                  data-bs-slide="next"
+                >
+                  <span class="carousel-control-next-icon"></span>
+                </button>
+              </div>
+              <h3>Limelight Cinema</h3>
+              <p>
+                Custom website for a fictional independent cinema. All images
+                and content are for demonstration purposes only.
+              </p>
+            </div>
+          </div>
+
+          <h1 id="proj">My Projects</h1>
+        </div>
+
+        <div class="container py-5">
+          <div class="row g-4">
+            <!-- INTELLIGENT CISO PROJECT CARD -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100 shadow-sm">
+                <div
+                  class="card-img-overlay-wrapper"
+                  style="position: relative"
+                >
+                  <img
+                    src="./pics/ciso/ciso_full.png"
+                    class="card-img-top"
+                    alt="Intelligent CISO Home Page"
+                  />
+                  <div class="card-tech-overlay">
+                    <span>Technologies</span>
+                    Photoshop, WordPress, PHP, Bootstrap, Javascript, HTML5,
+                    CSS3
+                  </div>
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Intelligent CISO</h5>
+                  <p class="card-text">
+                    Custom homepage, article templates, events, and contact page
+                    for Intelligent CISO.<br />
+                    <span style="font-size: 0.95em; color: #b00"
+                      >&copy; Lynchpin Media. Project completed as part of my
+                      employment at Lynchpin Media.</span
+                    >
+                  </p>
+                  <div class="mt-auto d-flex gap-2">
+                    <button
+                      class="btn btn-outline-primary w-50 modalButton"
+                      data-project-id="project1"
+                    >
+                      Preview
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- B&B ONDA BLU PROJECT CARD -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100 shadow-sm">
+                <div
+                  class="card-img-overlay-wrapper"
+                  style="position: relative"
+                >
+                  <img
+                    src="./pics/ondablu/home-desktop.png"
+                    class="card-img-top"
+                    alt="B&B Onda Blu Home Page"
+                  />
+                  <div class="card-tech-overlay">
+                    <span>Technologies</span>
+                    PHP, MySQL, HTML, CSS, Javascript, Stripe API, PHPMailer,
+                    Composer
+                  </div>
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">B&amp;B Onda Blu</h5>
+                  <p class="card-text">
+                    Bed &amp; breakfast booking website with reservation system,
+                    payment processing, and email notifications.<br />
+                    <span style="font-size: 0.95em; color: #1b264f"
+                      >&copy; B&amp;B Onda Blu. Final year project of my HND
+                      course.</span
+                    >
+                  </p>
+                  <div class="mt-auto d-flex gap-2">
+                    <button
+                      class="btn btn-outline-primary w-50 modalButton"
+                      data-project-id="project5"
+                    >
+                      Preview
+                    </button>
+                    <a
+                      class="btn btn-primary w-50"
+                      target="_blank"
+                      href="https://github.com/claudiosapia/B-B-Onda-Blu"
+                    >
+                      Github
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- LIMELIGHT CINEMA PROJECT CARD -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100 shadow-sm">
+                <div
+                  class="card-img-overlay-wrapper"
+                  style="position: relative"
+                >
+                  <img
+                    src="./pics/limelight/limelight_home.PNG"
+                    class="card-img-top"
+                    alt="Limelight Cinema Home Page"
+                  />
+                  <div class="card-tech-overlay">
+                    <span>Technologies</span>
+                    PHP, HTML, CSS, Javascript, MySQL
+                  </div>
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Limelight Cinema</h5>
+                  <p class="card-text">
+                    Cinema website with ticketing, showtime scheduling, and
+                    content management functionalities.<br />
+                    <span style="font-size: 0.95em; color: #1b264f"
+                      >&copy; Limelight Cinema. Student project for portfolio
+                      demonstration only.</span
+                    >
+                  </p>
+                  <div class="mt-auto d-flex gap-2">
+                    <button
+                      class="btn btn-outline-primary w-50 modalButton"
+                      data-project-id="project14"
+                    >
+                      Preview
+                    </button>
+                    <a
+                      class="btn btn-primary w-50"
+                      target="_blank"
+                      href="https://github.com/claudiosapia/limelight-cinema"
+                    >
+                      Github
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- TRANSITION EDINBURGH PROJECT CARD -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100 shadow-sm">
+                <div
+                  class="card-img-overlay-wrapper"
+                  style="position: relative"
+                >
+                  <img
+                    src="./pics/Transition Edinburgh.webp"
+                    class="card-img-top"
+                    alt="Transition Edinburgh cover"
+                  />
+                  <div class="card-tech-overlay">
+                    <span>Technologies</span>
+                    WordPress, HTML5, CSS3, Javascript
+                  </div>
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Transition Edinburgh</h5>
+                  <p class="card-text">
+                    Website updates, content creation, theme customization, and
+                    events/blog management for a local sustainability
+                    initiative.
+                  </p>
+                  <div class="mt-auto d-flex gap-2">
+                    <button
+                      class="btn btn-outline-primary w-100 modalButton"
+                      data-project-id="project2"
+                    >
+                      Preview
+                    </button>
+                    <a
+                      class="btn btn-primary w-100"
+                      target="_blank"
+                      href="https://github.com/claudiosapia/transition-edinburgh"
+                    >
+                      Github
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- BIKE KING BORDERS PROJECT CARD -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100 shadow-sm">
+                <div
+                  class="card-img-overlay-wrapper"
+                  style="position: relative"
+                >
+                  <img
+                    src="./pics/bkb.webp"
+                    class="card-img-top"
+                    alt="bkb-cover"
+                  />
+                  <div class="card-tech-overlay">
+                    <span>Technologies</span>
+                    HTML5, CSS3, Javascript, Lightbox
+                  </div>
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Bike King Borders</h5>
+                  <p class="card-text">
+                    Fictional bike shop website for coursework showcasing
+                    products, services, and repairs.<br />
+                    <span style="font-size: 0.95em; color: #1b264f"
+                      >&copy; Bike King Borders. Coursework project for HND Web
+                      Engineering.</span
+                    >
+                  </p>
+                  <div class="mt-auto d-flex gap-2">
+                    <button
+                      class="btn btn-outline-primary w-50 modalButton"
+                      data-project-id="project8"
+                    >
+                      Preview
+                    </button>
+                    <a
+                      class="btn btn-primary w-50"
+                      target="_blank"
+                      href="https://github.com/claudiosapia/bkb-bike-king-borders"
+                    >
+                      Github
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- JOB MARKET CANDIDATES PROJECT CARD -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100 shadow-sm">
+                <div
+                  class="card-img-overlay-wrapper"
+                  style="position: relative"
+                >
+                  <img
+                    src="./pics/job-market/job-market-content.PNG"
+                    class="card-img-top"
+                    alt="Job Market Candidates - University of Edinburgh"
+                    onerror="this.onerror=null;this.src='./pics/claudio-logo.webp';"
+                  />
+                  <div class="card-tech-overlay">
+                    <span>Technologies</span>
+                    PHP, Bootstrap, MySQL, Javascript, HTML5, CSS3
+                  </div>
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">
+                    Job Market Candidates – University of Edinburgh
+                  </h5>
+                  <p class="card-text">
+                    Custom web portal for the School of Economics. Built with
+                    Drupal and Figma. Features candidate profiles,
+                    search/filter, and admin dashboard.<br />
+                    <span style="font-size: 0.95em; color: #1b264f"
+                      >&copy; University of Edinburgh. Project for the School of
+                      Economics.</span
+                    >
+                  </p>
+                  <div class="mt-auto d-flex gap-2">
+                    <button
+                      class="btn btn-outline-primary w-50 modalButton"
+                      data-project-id="project15"
+                    >
+                      Preview
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- PREVIOUS PROJECTS SECTION -->
+          </div>
+        </div>
+        <div class="container py-5 mt-5 previous-projects-section">
+          <h2
+            class="text-center mb-4"
+            style="font-weight: 700; letter-spacing: 1px"
+          >
+            Previous Projects
+          </h2>
+          <p class="text-center mb-5" style="max-width: 600px; margin: auto">
+            Below are some of my earlier projects. These demonstrate a range of
+            technologies and learning experiences.
+          </p>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <!-- EARLIER PROJECT CARDS (NO PREVIEW) -->
+            <div class="col">
+              <div class="card h-100 shadow-sm">
+                <div class="card-img-overlay-wrapper">
+                  <img
+                    src="./pics/ellnot-2023.webp"
+                    class="card-img-top"
+                    alt="e-commerce website"
+                  />
+                  <div class="card-tech-overlay">
+                    <span>Technologies</span>
+                    Node.js, Express.js, EJS, HTML, CSS, Bootstrap
+                  </div>
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">ELLNOT (E-commerce Website)</h5>
+                  <p class="card-text">
+                    Fashion e-commerce website with product catalog, shopping
+                    cart, and user authentication
+                  </p>
+                  <div class="mt-auto d-flex gap-2">
+                    <a
+                      class="btn btn-primary w-100"
+                      target="_blank"
+                      href="https://github.com/claudiosapia/ellnot-2023"
+                      >Github</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 shadow-sm">
+                <div class="card-img-overlay-wrapper">
+                  <img
+                    src="./pics/smart-menu-home.png"
+                    class="card-img-top"
+                    alt="Smart Menu cover"
+                  />
+                  <div class="card-tech-overlay">
+                    <span>Technologies</span>
+                    PHP, Symfony, MySQL, HTML, CSS, JavaScript
+                  </div>
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">SMART MENU</h5>
+                  <p class="card-text">
+                    Restaurant menu management system with CRUD operations and
+                    admin functionalities
+                  </p>
+                  <div class="mt-auto d-flex gap-2">
+                    <a
+                      class="btn btn-primary w-100"
+                      target="_blank"
+                      href="https://github.com/claudiosapia/smart-menu"
+                      >Github</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 shadow-sm">
+                <div class="card-img-overlay-wrapper">
+                  <img
+                    src="./pics/simply.webp"
+                    class="card-img-top"
+                    alt="simply supermarket cover"
+                  />
+                  <div class="card-tech-overlay">
+                    <span>Technologies</span>
+                    React.js, JavaScript, API integration, CSS
+                  </div>
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">
+                    Simply Groceries <span>(In Progress)</span>
+                  </h5>
+                  <p class="card-text">
+                    Grocery store website with product listings and shopping
+                    features
+                  </p>
+                  <div class="mt-auto d-flex gap-2">
+                    <a
+                      class="btn btn-primary w-100"
+                      target="_blank"
+                      href="https://github.com/claudiosapia/simply"
+                      >Github</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 shadow-sm">
+                <div class="card-img-overlay-wrapper">
+                  <img
+                    src="./pics/skycast.webp"
+                    class="card-img-top"
+                    alt="weather app cover"
+                  />
+                  <div class="card-tech-overlay">
+                    <span>Technologies</span>
+                    Node.js, JavaScript, Weather API, HTML, CSS
+                  </div>
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">My Weather App</h5>
+                  <p class="card-text">
+                    Weather application providing current weather information
+                    and forecasts
+                  </p>
+                  <div class="mt-auto d-flex gap-2">
+                    <a
+                      class="btn btn-primary w-100"
+                      target="_blank"
+                      href="https://github.com/claudiosapia/SkyCast-Weather"
+                      >Github</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 shadow-sm">
+                <div class="card-img-overlay-wrapper">
+                  <img
+                    src="./pics/coinside.webp"
+                    class="card-img-top"
+                    alt="coinside-crypto-website"
+                  />
+                  <div class="card-tech-overlay">
+                    <span>Technologies</span>
+                    React.js, Redux Toolkit, JavaScript, API integration, CSS
+                  </div>
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Coinside - Crypto</h5>
+                  <p class="card-text">
+                    Cryptocurrency tracking and information platform
+                  </p>
+                  <div class="mt-auto d-flex gap-2">
+                    <a
+                      class="btn btn-primary w-100"
+                      target="_blank"
+                      href="https://github.com/claudiosapia/coinside-app"
+                      >Github</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 shadow-sm">
+                <div class="card-img-overlay-wrapper">
+                  <img
+                    src="./pics/ta.webp"
+                    class="card-img-top"
+                    alt="travel assistant cover"
+                  />
+                  <div class="card-tech-overlay">
+                    <span>Technologies</span>
+                    React.js, JavaScript, Material UI, API integration
+                  </div>
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">My Travel Assistant</h5>
+                  <p class="card-text">
+                    Travel planning and assistance application for trip
+                    management
+                  </p>
+                  <div class="mt-auto d-flex gap-2">
+                    <a
+                      class="btn btn-primary w-100"
+                      target="_blank"
+                      href="https://github.com/claudiosapia/Travel-Assistant"
+                      >Github</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 shadow-sm">
+                <div class="card-img-overlay-wrapper">
+                  <img
+                    src="./pics/STAYC.webp"
+                    class="card-img-top"
+                    alt="travel blog cover"
+                  />
+                  <div class="card-tech-overlay">
+                    <span>Technologies</span>
+                    Node.js, JavaScript, MongoDB, Mongoose, HTML, CSS
+                  </div>
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">My Travel Blog</h5>
+                  <p class="card-text">
+                    Personal travel blog with content management and photo
+                    galleries
+                  </p>
+                  <div class="mt-auto d-flex gap-2">
+                    <a
+                      class="btn btn-primary w-100"
+                      target="_blank"
+                      href="https://github.com/claudiosapia/staycation-blog-cs"
+                      >Github</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 shadow-sm">
+                <div class="card-img-overlay-wrapper">
+                  <img
+                    src="./pics/organic-me.webp"
+                    class="card-img-top"
+                    alt="organic-me-cover"
+                  />
+                  <div class="card-tech-overlay">
+                    <span>Technologies</span>
+                    Photoshop, Illustrator, HTML, CSS, JavaScript
+                  </div>
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Organic ME</h5>
+                  <p class="card-text">
+                    Organic products showcase website with product information
+                  </p>
+                  <div class="mt-auto d-flex gap-2">
+                    <a
+                      class="btn btn-primary w-100"
+                      target="_blank"
+                      href="https://github.com/claudiosapia/organic-me-website"
+                      >Github</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 shadow-sm">
+                <div class="card-img-overlay-wrapper">
+                  <img
+                    src="./pics/simon-game.webp"
+                    class="card-img-top"
+                    alt="simon-game"
+                  />
+                  <div class="card-tech-overlay">
+                    <span>Technologies</span>
+                    JavaScript, HTML5, CSS3
+                  </div>
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Simon Game</h5>
+                  <p class="card-text">
+                    Classic Simon memory game implementation with interactive
+                    gameplay
+                  </p>
+                  <div class="mt-auto d-flex gap-2">
+                    <a
+                      class="btn btn-primary w-100"
+                      target="_blank"
+                      href="https://github.com/claudiosapia/Simon-Game"
+                      >Github</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <section class="footer">
+      <footer class="footer text-white">
+        <div class="container align-items-center text-center">
+          <div class="row">
+            <div class="col-12">
+              <a name="contact"><h2 class="mt-2">Contact Me</h2></a>
+              <p class="mt-3 mb-4 pb-4">
+                If you have any questions or would like to discuss a project,
+                feel free to reach out to me via email at: clasapiact@gmail.com
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container align-items-center text-center">
+          <div class="row align-items-center">
+            <div class="col-6">
+              <a target="_blank" href="https://facebook.com/claudio.sapia98">
+                <span class="i-hover">
+                  <i class="fab fa-2x fa-facebook"></i>
+                </span>
+              </a>
+            </div>
+            <div class="col-6">
+              <a target="_blank" href="https://linkedin.com/in/claudio-sapia">
+                <span class="i-hover">
+                  <i class="fab fa-2x fab fa-linkedin-in"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      defer
+    ></script>
+    <!-- Bootstrap JavaScript bundle -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+      defer
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+      integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script defer src="js/portfolio.js"></script>
+  </body>
+</html>
